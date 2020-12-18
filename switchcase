@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/**
+ * @author ANUSHKA
+ *
+ */
+public class Switchcase {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int choice;
+		System.out.println("Pick a choice:\t 1.Hi\t 2.Hey\t 3.hello\t");
+		Scanner s= new Scanner(System.in);
+		choice=s.nextInt();
+		switch(choice)
+		{
+		  case 1:System.out.println("You said Hi");
+		         break;
+		  case 2:System.out.println("You said Hey");
+		         break;
+		  case 3:System.out.println("You said hello");
+		         break;
+		  default:Sysem.out.println("inalid choice.");
+		}
+      }
+
+}
